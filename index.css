@@ -42,13 +42,20 @@ body {
     padding: 15px 15px 30px 15px;
     background-color: var(--white);
     border-radius: 15px;
-    width: 350px;
+    width: 330px;
     height: max-content;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code-image {
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .qr-code-info {
     width: 100%;
-    padding: 0 25px;
+    padding: 0 10px;
     text-align: center;
 }
 
